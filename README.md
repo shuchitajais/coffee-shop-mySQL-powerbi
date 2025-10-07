@@ -65,7 +65,8 @@ The dashboard provides insights into **store performance**, **daily and hourly t
 5. **Visualization** — Designed interactive Power BI dashboard using clean data.  
 6. **Documentation** — Stored SQL scripts and Power BI files for reproducibility.
 
----
-
-## 📁 Repository Structure  
+## 📝 Author  
+**Shuchita Jaiswal**  
+📧 shuchita0201@gmail.com  
+🔗 https://www.linkedin.com/in/shuchitajaiswal/ 
 
