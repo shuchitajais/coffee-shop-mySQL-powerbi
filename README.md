@@ -65,6 +65,50 @@ The dashboard provides insights into **store performance**, **daily and hourly t
 5. **Visualization** — Designed interactive Power BI dashboard using clean data.  
 6. **Documentation** — Stored SQL scripts and Power BI files for reproducibility.
 
+## 📊 Power BI Dashboard
+
+This Power BI dashboard visualizes the key metrics derived from MySQL data for the **Coffee Shop Sales Analysis** project.  
+It helps track performance trends, identify peak sales periods, and monitor business growth efficiently.
+
+---
+
+### ☕ Dashboard Overview
+![Dashboard](PowerBI/Dashboard.png)
+
+### 🧠 Dashboard Tooltip View
+Interactive tooltip showing product-level insights on hover.
+![Dashboard Tooltip](PowerBI/Dashboard(Tooltip).png)
+
+---
+
+## 🧮 DAX Measures Used
+
+Below are key DAX measures used to calculate KPIs and Month-on-Month (MoM) growth.
+
+### 📆 Current Month Calculations
+![DAX Current Month](PowerBI/DAX%20Current%20Month.png)
+
+### 📈 Month-on-Month Growth
+![DAX MoM](PowerBI/DAX%20MoM.png)
+
+---
+
+## 🧾 Key Insights Summary
+
+Here are some major takeaways from the **Coffee Shop Sales Analysis (MySQL + Power BI)** project:
+
+- ☕ **May recorded the highest sales** and order volume across all months — indicating peak business activity.  
+- 📈 **Consistent Month-on-Month (MoM) growth** observed in both sales and quantity, showing positive performance trends.  
+- 🗓️ **Weekdays outperform weekends** in sales, likely due to regular customer visits during working days.  
+- 🏬 **Store Location Analysis** revealed specific branches contributing significantly higher revenue, helping target local promotions.  
+- 🕒 **Hourly trend analysis** showed early mornings and evenings as key sales hours — useful for staff scheduling.  
+
+---
+
+💡 **Overall Impact:**  
+This project demonstrates how SQL-based data modeling and Power BI visualization can be combined to deliver powerful, data-driven business insights — enabling better decision-making for sales optimization and operational planning.
+
+---  
 ## 📝 Author  
 **Shuchita Jaiswal**  
 📧 shuchita0201@gmail.com  
