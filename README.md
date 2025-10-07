@@ -1,69 +1,71 @@
-📊 Project Overview
+# ☕ Coffee Shop Sales Analytics (MySQL + Power BI)
 
-This project analyzes Coffee Shop Sales Data using MySQL and visualizes the insights through an interactive Power BI Dashboard.
+## 📊 Project Overview  
+This project analyzes **Coffee Shop Sales Data** using **MySQL** and visualizes the insights through an interactive **Power BI Dashboard**.  
 
-The goal was to track and measure key business performance metrics — Total Sales, Total Orders, and Quantity Sold — and study their Month-on-Month (MoM) growth trends.
-It also provides insights into store performance, daily and hourly sales trends, and weekday vs weekend patterns, helping identify sales drivers and operational bottlenecks.
+The goal was to measure and monitor key business metrics — **Total Sales, Total Orders, and Total Quantity Sold** — and identify **Month-on-Month (MoM)** performance trends.  
+The dashboard provides insights into **store performance**, **daily and hourly trends**, and **weekday vs weekend patterns** to support business decisions.
 
-🎯 Key Features
-🧮 KPI Analysis
+---
 
-Total Sales, Orders, and Quantity Sold for each month.
+## 🎯 Key Features  
 
-Month-on-Month Difference and Growth % in sales, orders, and quantity.
+### 🧮 KPI Analysis
+- Calculate **Total Sales**, **Total Orders**, and **Total Quantity Sold** for each month.  
+- Measure **Month-on-Month Difference** and **Growth Percentage** in sales, orders, and quantity.  
+- Track performance fluctuations across time periods.
 
-Identify monthly trends and performance variations.
+### 📅 Calendar Heat Map
+- Dynamic heat map that adjusts based on the selected month.  
+- Each day color-coded to represent sales volume.  
+- Tooltips display daily metrics — Sales, Orders, and Quantity.
 
-📅 Calendar Heat Map
+### 📈 Daily Sales Trend
+- Line chart showing daily sales with an **average sales line**.  
+- Highlights days performing **above or below average**.
 
-Dynamic calendar visualization for any selected month.
+### 🏬 Sales by Store Location
+- Compare total sales across store locations.  
+- Show **Month-on-Month differences** to identify trends and growth opportunities.
 
-Color-coded daily sales with tooltips showing Sales, Orders, and Quantity.
+### ☕ Product Analysis
+- Sales performance by **Product Category**.  
+- Identify **Top 10 Best-Selling Products** by total sales volume.
 
-📈 Daily Sales Trend
+### 🕒 Sales by Day & Hour
+- Heat map showing sales patterns across weekdays and working hours.  
+- Identify **peak sales hours** and **low-performing time slots**.
 
-Line chart displaying daily sales with an average line indicator.
+---
 
-Highlights days exceeding or falling below average sales.
+## 🧰 Tools & Technologies Used  
 
-🏬 Sales by Store Location
+| Tool / Technology | Purpose |
+|--------------------|----------|
+| **MySQL** | Data cleaning, transformation, and KPI calculation through SQL queries. |
+| **Power BI** | Dashboard creation and visualization of metrics & trends. |
+| **Excel / CSV** | Raw data preparation and validation. |
+| **GitHub** | Project version control and documentation. |
 
-Store-wise sales comparison with Month-on-Month growth.
+---
 
-Helps identify top and low-performing locations.
+## 🧑‍💻 SQL Functionalities Used  
+`STR_TO_DATE`, `ROUND`, `SUM`, `COUNT`, `AVG`, `LAG`, `MONTH`, `DAY`, `DAYOFWEEK`,  
+`HOUR`, `CASE`, `GROUP BY`, `ORDER BY`, `LIMIT`, `WINDOW FUNCTIONS`,  
+`JOINS`, `SUBQUERIES`, `ALTER TABLE`, `UPDATE`, `CHANGE COLUMN`
 
-🕒 Sales by Day and Hour
+---
 
-Hourly sales heat map showing busy hours and off-peak times.
+## ⚙️ Process Workflow  
 
-Insights into sales distribution across weekdays and weekends.
+1. **Data Walkthrough** — Understanding dataset structure and fields.  
+2. **Data Cleaning** — Fixed data types and removed anomalies.  
+3. **Transformations** — Converted string dates and times into correct formats.  
+4. **KPI Querying** — Wrote SQL for all business and KPI requirements.  
+5. **Visualization** — Designed interactive Power BI dashboard using clean data.  
+6. **Documentation** — Stored SQL scripts and Power BI files for reproducibility.
 
-☕ Product Insights
+---
 
-Category-wise and Top 10 Product analysis based on sales volume.
+## 📁 Repository Structure  
 
-Helps track best-selling categories and items.
-
-🧰 Tools & Technologies Used
-Tool	Purpose
-MySQL	Data cleaning, transformation, and KPI calculations using SQL queries.
-Power BI	Interactive dashboard design and visualization of KPIs and trends.
-Excel / CSV	Initial data preparation and validation.
-GitHub	Version control and project documentation.
-🧑‍💻 SQL Functionalities Used
-
-STR_TO_DATE, ROUND, SUM, COUNT, AVG, LAG, MONTH, DAY, DAYOFWEEK,
-HOUR, CASE, GROUP BY, ORDER BY, WINDOW FUNCTIONS, JOINS, SUBQUERIES,
-ALTER TABLE, UPDATE TABLE, CHANGE COLUMN, etc.
-
-⚙️ Process Workflow
-
-Data Import & Cleaning – Fixed column types, removed encoding errors.
-
-Data Transformation – Converted date/time formats and ensured data consistency.
-
-SQL Querying – Derived KPIs and metrics for business requirements.
-
-Visualization – Created Power BI dashboard with slicers and dynamic visuals.
-
-Documentation – Stored SQL scripts and Power BI file for reproducibility.
